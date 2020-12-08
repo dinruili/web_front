@@ -1,0 +1,25 @@
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1604624793833'); /* IE9 */
+  src: url('iconfont.eot?t=1604624793833#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAPkAAsAAAAACBAAAAOXAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDBgqDcIMtATYCJAMMCwgABCAFhG0HPxv8BsgekiQlAgUUUKAAFCwjHr72ez13d/8LAChAGQ+sMlEEKixMXGzKvsqxao2pIjAiQ23qAVGoy3UmFVdqEjkoiROIvEImxnPi9hTR1/qcynNLvPrEvdOm+HxAOf21qLFpjGmfugDjgALaG6MuD7hA0sS4YeyqpTio6wQajVoCW21sp4FGgecF4pZjdUCTcSgNtaFeqCq2FvEK1NSnB/whAF4Gn4//IDc0JLUML90+bzCC6l/wXTkhBe8dCQ2gp/NB3UXGHKAQJ5WBPUSUnkNotCVFc2mlCGmqWDBIQDlCRf7wSIKo4OpmMIUyiV+QUYlcDpmrph9udoVWvMZnw9kN/6pe1dLST4Tk+ujTajtI8iZ08+bAJjLkyQZpYyxIee0DmPxqcWEbNsQAelMhxcZujI2UN2PKnY52PlzeCNKZnghspoY6u8QIQhdLxRtwjxz7+vXAy5e09KqDHjx4i9o4fxv25s3AwaPSkXXHAsdp7tt9XEaytc3IV6/65cvz+weuvNFvqhOpcvfgumhEi9+x51vcN8pBifY961VnZuJmQlTe8MHemnl3qP97Vu35Rt5Rj28ZU8bM8V0VQ75Rw27Vi5dibjbJaqsXnCAvVK31aBtyX774V1/9bv2nGlK38dM7sKM1/Gv85EmviC3Hz2zAHdXV3JG0MWvBxZLUp9juWTi7Xi4YjKifTc+5MOfGraaYC8T5ObT3VDmYpzb7LZgT2yhhk9jURr8Ti/+I6My4jt/lIxOjezISZlFRtQk5u1QUurEGTAF4zG+IFgDIb/AP//M7uj/9OT8ZXv63nirgy/3rW4PwYwHdM/USKv336I4dxWGxMxeLYpSXy7Zo3g0BCU32z+qh08zwUA+Q+EK9RkMkdUaQ1RvTFuMcaprMo1JvAY1mNe1u0oVHiNKAGSsBQrvTSFp9RNbukbYY36Km11dU2oNAo52IPrLJRHBkHY90AjJCvQ9yBruNoW6BDGt7EStadHyaDUwDiHdxMZiTmZ3PNSEb4qdY4XKzuYLAQIa3W2EjuA1ZLHbo4O0mZBAypwXBUZqVxVQ9KNNgtwLSCh6iI0CMID0fiGNgZ8OI3gKy8P5eCEtkocM3qNr2AxCeCzc4lCNTdgdtk2TrpLqVe1zcWLkEAgbE4NlZQY3Ah1hI2g5yVE8yQQwEmaYHJB1KZaFuTFcpc3nF+n77oBFemiNFjqL5jjNxOhtDx5pFTuVBnJezAQAA') format('woff2'),
+  url('iconfont.woff?t=1604624793833') format('woff'),
+  url('iconfont.ttf?t=1604624793833') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1604624793833#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-yijianfankui:before {
+  content: "\e63c";
+}
+
+.icon-weixin:before {
+  content: "\e620";
+}
+

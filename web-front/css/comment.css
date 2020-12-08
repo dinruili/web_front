@@ -1,0 +1,302 @@
+#live2dcanvas {
+    border: 0 !important;
+}
+
+body {
+    background-image: url(../img/92aa9fb1209f7a315113016695f09b49.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header {
+    text-align: center;
+    color: black;
+}
+
+#nav {
+    background-color: rgba(255, 0, 0, 0.699);
+    margin: 0 auto;
+    height: 100px;
+    width: 70%;
+}
+
+.a1 {
+    float: left;
+    margin-top: 35px;
+    margin-left: 2.5%;
+    font-size: 25px;
+}
+
+.a1 a {
+    text-decoration: none;
+    color: black;
+}
+
+#search {
+    float: right;
+    margin-right: 2.5%;
+    margin-top: 35px;
+}
+
+.bar input {
+    font-size: 20px;
+    border: 2px solid #c5464a;
+    border-radius: 5px;
+    background: #F9F0DA;
+    top: 0;
+    right: 0;
+}
+
+.bar button {
+    background: #c5464a;
+    border-radius: 0 5px 5px 0;
+    width: 60px;
+    top: 0;
+    right: 0;
+}
+
+.bar button:before {
+    content: "搜索";
+    font-size: 20px;
+    color: #F9F0DA;
+}
+
+#main {
+    margin-left: 15%;
+    float: left;
+    background-color: rgba(255, 235, 205, 0.678);
+    height: 1100px;
+    width: 70%;
+}
+
+.title {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    background-image: url(../img/bgimg1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 200px;
+    /* background-position: 50% 0%; */
+}
+
+.content {
+    width: 100%;
+    height: 800px;
+    overflow-y: scroll;
+    border-bottom: 1px solid black;
+}
+
+#tb {
+    width: 100%;
+    height: auto;
+}
+
+.td1 {
+    width: 30%;
+    height: 100px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.td2 {
+    width: 70%;
+    height: 100px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.input {
+    width: 100%;
+    height: 200px;
+}
+
+.ta {
+    font-size: 20px;
+    width: 80%;
+    height: 130px;
+    word-wrap: "soft";
+    resize: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    outline: none;
+}
+
+.btn {
+    font-size: 20px;
+    background-color: rgba(255, 127, 80, 0.877);
+    border-radius: 5px;
+}
+
+#aside {
+    background-color: rgba(255, 255, 255, 0.712);
+    float: right;
+    height: 1100px;
+    width: 25%;
+}
+
+#aside h2 {
+    text-align: center;
+}
+
+#aside li {
+    font-size: 20px;
+}
+
+.line {
+    background-color: chartreuse;
+    float: left;
+    margin-left: 5px;
+    margin-right: 20px;
+    width: 5px;
+    height: 25px;
+}
+
+.others p {
+    font-size: 20px;
+}
+
+.share2 {
+    margin-left: 5%;
+    width: 120px;
+    height: 40px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    background-color: white;
+    overflow: hidden;
+}
+
+.wx {
+    margin-top: 5px;
+    margin-left: 10%;
+    float: left;
+}
+
+.sp {
+    float: left;
+    height: 20px;
+    width: auto;
+    font-size: 12px;
+    margin-left: 5px;
+    line-height: 40px;
+}
+
+.sp h3 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.ma {
+    margin-left: 7%;
+    width: 120px;
+    height: 120px;
+}
+
+.opinion {
+    margin-left: 5%;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    width: 120px;
+    height: 40px;
+    align-items: center;
+}
+
+.opinion a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+.icon-yijianfankui {
+    font-size: 25px;
+    margin-right: 5px;
+}
+
+.icon-weixin {
+    font-size: 25px;
+    color: rgb(47, 128, 0);
+}
+
+#fd {
+    border: 1px solid transparent;
+    border-radius: 20px;
+    width: 10%;
+    height: 400px;
+    background-color: white;
+    position: fixed;
+    right: 5%;
+}
+
+#fd h2 {
+    text-align: center;
+}
+
+.shop {
+    display: flex;
+    align-items: center;
+}
+
+.shop a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+#footer {
+    margin: 0 auto;
+    background-color: white;
+    height: 200px;
+    width: 70%;
+    border: 1px solid transparent;
+}
+
+#footer p {
+    display: block;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    margin-top: 70px;
+    font-size: 40px;
+}
+
+.table {
+    border-collapse: collapse;
+}
+
+.table td {
+    border: 1px solid black;
+}
+
+.login {
+    width: 100%;
+    height: 100px;
+    border-bottom: 3px solid black;
+    display: flex;
+    align-items: center;
+}
+
+#text-login {
+    margin: 0 auto;
+}
+
+#text-login a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+#home {
+    display: none;
+    margin: 0 auto;
+}
+
+#home a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+
+}

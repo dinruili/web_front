@@ -1,0 +1,258 @@
+#live2dcanvas {
+    border: 0 !important;
+}
+
+body {
+    background-image: url(img/bg2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font: normal 100% Helvetica, Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    color: red;
+}
+
+#nav {
+    background-color: rgba(255, 0, 0, 0.699);
+    margin: 0 auto;
+    height: 100px;
+    width: 100%;
+}
+
+.a1 {
+    float: left;
+    margin-top: 35px;
+    margin-left: 2.5%;
+    font-size: 1.5em;
+}
+
+.a1 a {
+    text-decoration: none;
+    color: black;
+}
+
+#search {
+    display: none;
+    float: right;
+    margin-right: 2.5%;
+    margin-top: 35px;
+}
+
+.bar input {
+    font-size: 1.25em;
+    border: 2px solid #c5464a;
+    border-radius: 5px;
+    background: #F9F0DA;
+    top: 0;
+    right: 0;
+}
+
+.bar button {
+    background: #c5464a;
+    border-radius: 0 5px 5px 0;
+    width: auto;
+    top: 0;
+    right: 0;
+}
+
+.bar button:before {
+    content: "搜索";
+    font-size: 1.25em;
+    color: #F9F0DA;
+}
+
+#main {
+    margin-left: 0;
+    float: left;
+    background-color: rgba(255, 235, 205, 0.678);
+    height: auto;
+    width: 100%;
+}
+
+#aside {
+    background-color: rgba(255, 255, 255, 0.712);
+    height: 600px;
+    width: 100%;
+    overflow-y: auto;
+}
+
+#aside h2 {
+    text-align: center;
+}
+
+#aside li {
+    font-size: 1.25em;
+}
+
+.line {
+    background-color: chartreuse;
+    float: left;
+    margin-left: 5px;
+    margin-right: 20px;
+    width: 5px;
+    height: 25px;
+}
+
+.others p {
+    font-size: 1.25em;
+}
+
+.share2 {
+    margin-left: 5%;
+    width: 120px;
+    height: 40px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    background-color: white;
+    overflow: hidden;
+}
+
+.wx {
+    margin-top: 5px;
+    margin-left: 10%;
+    float: left;
+}
+
+.sp {
+    float: left;
+    height: 20px;
+    width: auto;
+    font-size: 0.75em;
+    margin-left: 5px;
+    line-height: 40px;
+}
+
+.sp h3 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.ma {
+    margin-left: 7%;
+    width: 120px;
+    height: 120px;
+}
+
+.opinion {
+    margin-left: 5%;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    width: 120px;
+    height: 40px;
+    align-items: center;
+}
+
+.opinion a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+.icon-yijianfankui {
+    font-size: 1.5em;
+    margin-right: 5px;
+}
+.icon-weixin {
+    font-size: 1.5em;
+    color: rgb(47, 128, 0);
+}
+
+#introduce {
+    height: 100%;
+    width: 100%;
+    overflow-y: auto;
+    border: 1px solid transparent;
+}
+
+.h2 {
+    margin-left: 5%;
+}
+
+.size {
+    margin: 0 auto;
+    margin-top: 100px;
+    background-color: white;
+    height: auto;
+    width: 70%;
+    border: 1px solid transparent;
+    overflow: hidden;
+}
+
+img {
+    max-width: 100%;
+}
+
+.img {
+    height: auto;
+    width: 100%;
+    float: left;
+}
+
+.content {
+    float: left;
+    width: 100%;
+}
+
+.article {
+    float: left;
+    background-color: white;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: 900px;
+    width: 70%;
+    max-height: 900px;
+    overflow-y: scroll;
+}
+
+#fd {
+    display: none;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    width: 10%;
+    height: 400px;
+    background-color: white;
+    position: fixed;
+    right: 5%;
+}
+
+#fd h2 {
+    text-align: center;
+}
+
+.shop {
+    display: flex;
+    align-items: center;
+}
+
+.shop a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+#footer {
+    margin: 0 auto;
+    background-color: white;
+    height: 200px;
+    width: 100%;
+    border: 1px solid transparent;
+}
+
+#footer p {
+    display: block;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    margin-top: 70px;
+    font-size: 2.5em;
+}
+
+img { max-width: 100%;}
